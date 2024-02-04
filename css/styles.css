@@ -51,11 +51,23 @@ a {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
-.main {
+.first {
     flex-shrink: 0;
     background: var(--NAVY-BLUE, #2e2f42);
 }
-.main-text {
+/*.second {
+    width: 1128px;
+    height: 104px;
+}
+.third {
+    width: 1128px;
+    height: 412px;
+}
+.fourth {
+    width: 1440px;
+    height: 732px;
+}*/
+.main {
     color: var(--WHITE, #fff);
     text-align: center;
     /* Header 1 */
@@ -119,14 +131,12 @@ a {
     background: var(--NAVY-BLUE, #2e2f42);
 }
 .end-text {
-    color: var(--CLOUD, #f4f4fd);
-    /* Body */
-    font-family: Ral;
-    font-size: 16px;
-    font-style: normal;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
-    line-height: 24px; /* 150% */
-    letter-spacing: 0.32px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
 }
 .highlight-end {
     color: var(--CLOUD, #f4f4fd);
