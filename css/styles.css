@@ -8,8 +8,6 @@
     --main-grey: #757575;
 } */
 body {
-    width: 1440px;
-    height: 3300px;
     font-family: "Roboto", sans-serif;
     color: #434455;
     background-color: #ffffff;
@@ -17,12 +15,12 @@ body {
 a {
     text-decoration: none;
 }
-/*.header {
+/*.head {
     border-bottom: 1px solid #e7e9fc;
     width: 1440px;
     height: 72px;
 }*/
-.title {
+.logo {
     color: var(--IRIS, #4d5ae5);
     font-family: "Raleway", sans-serif;
     font-size: 18px;
@@ -48,6 +46,9 @@ a {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.32px;
 }
+.address:hover {
+    color: #404bbf;
+}
 .studio {
     color: var(--NAVY-BLUE, #2e2f42);
     /* Body Medium */
@@ -58,8 +59,10 @@ a {
     line-height: 1.5; /* 150% */
     letter-spacing: 0.02em;
 }
+.studio:hover {
+    color: #404bbf;
+}
 .first {
-    flex-shrink: 0;
     background: var(--NAVY-BLUE, #2e2f42);
 }
 /*.second {
@@ -97,6 +100,9 @@ a {
     letter-spacing: 0.64px;
     cursor: pointer;
     background-color: #4d5ae5;
+}
+.button:hover {
+    background: #404bbf;
 }
 .second-item {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -138,6 +144,15 @@ a {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
+    color: #2e2f42;
+}
+.name {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
 }
