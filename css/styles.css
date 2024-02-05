@@ -21,14 +21,13 @@ a {
     height: 72px;
 }*/
 .logo {
-    color: var(--IRIS, #4d5ae5);
     font-family: "Raleway", sans-serif;
+    font-weight: 700;
     font-size: 18px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 1.17; /* 116.667% */
-    letter-spacing: 0.54px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
+    color: #4d5ae5;
 }
 .highlight {
     color: var(--NAVY-BLUE, #2e2f42);
@@ -165,8 +164,23 @@ a {
     text-align: center;
     color: #434455;
 }
+.sign {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+.sign-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 .end {
-    flex-shrink: 0;
     background: var(--NAVY-BLUE, #2e2f42);
 }
 .end-text {
